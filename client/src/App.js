@@ -117,6 +117,7 @@ percent(num) {
         username: '',
       })
     }).catch(err => console.log(err));
+    e.target.reset();
   }
 
   componentDidMount() {
